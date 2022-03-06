@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Custom} from './Custom';
+import {Context} from './Context';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+
+   
+    <Custom />
+    {/* <Context/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
